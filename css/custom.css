@@ -1,0 +1,41 @@
+/* Add here all your CSS customizations */
+.visuallyhidden { 
+	position: absolute; 
+	overflow: hidden; 
+	clip: rect(0 0 0 0); 
+	height: 1px; width: 1px; 
+	margin: -1px; padding: 0; border: 0; 
+}
+.header-body {
+	position: relative;
+}
+h1.logo {
+	font-family: 'Merienda', cursive;
+	font-size: 30px;
+	position: absolute;
+	top: 20px;
+	text-align: center;
+	width: 250px;
+}
+h1.logo a:hover {
+	text-decoration: none;
+}
+.main{
+	margin-bottom: 30px;
+}
+.features h4 {
+    /*color: #007BFF;*/
+    color: #333;
+}
+.features article h6 {
+    font-weight: bold;
+    color: #435656;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.blogs .col {
+	margin-bottom: 25px;
+}
+.blogs h3 {
+	width: 100%;
+}
